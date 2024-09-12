@@ -1,0 +1,33 @@
+{
+	"name": "@beyond-js/code-bundle",
+	"version": "1.0.0",
+	"description": "Code bundle for Beyond.js",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js"
+	},
+	"authors": [
+		{
+			"name": "Julio Rodriguez",
+			"email": "julio@beyondjs.com",
+			"twitter": "@jircdeveloper"
+		},
+		{
+			"name": "Felix Tovar",
+			"email": "felix@beyondjs.com"
+		},
+		{
+			"name": "Henry Box",
+			"email": "ebox@beyondjs.com"
+		}
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"beyond",
+		"bundle",
+		"code"
+	],
+	"license": "ISC"
+}
