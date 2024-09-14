@@ -1,6 +1,6 @@
 {
 	"name": "@beyond-js/code-bundle",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Code bundle for Beyond.js",
 	"main": "index.js",
 	"exports": {
