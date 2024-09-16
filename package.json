@@ -4,7 +4,7 @@
 	"description": "Code bundle for Beyond.js",
 	"main": "index.js",
 	"exports": {
-		".": "./index.js"
+		".": "./src/index.js"
 	},
 	"authors": [
 		{
