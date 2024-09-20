@@ -1,8 +1,7 @@
 module.exports = {
-    name: "code",
-    extname: [".js", ".css"],
-    bundle: {
-        processors: ["ts", "sass", "js", "jsx", "less", "scss", "svelte", "vue", "mdx"],
-        template: true,
-    },
+	name: 'code',
+	extname: ['.js', '.css'],
+	bundle: {
+		template: true,
+	},
 };
