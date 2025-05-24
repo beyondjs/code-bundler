@@ -1,10 +1,9 @@
 {
 	"name": "@beyond-js/code-bundle",
 	"version": "1.0.1",
-	"description": "Code bundle for Beyond.js",
-	"main": "index.js",
+	"description": "BeyondJS Code Bundler",
 	"exports": {
-		".": "./src/index.js"
+		".": "./lib/index.js"
 	},
 	"authors": [
 		{
@@ -29,5 +28,8 @@
 		"bundle",
 		"code"
 	],
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"@beyond-js/bundlers-sdk": "file://../../bundlers-sdk"
+	}
 }
