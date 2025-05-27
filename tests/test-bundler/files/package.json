@@ -1,0 +1,21 @@
+{
+	"name": "svelte-bundle-test",
+	"version": "0.0.1",
+	"description": "BeyondJS `Svelte Bundler / Processor` test",
+	"license": "MIT",
+	"modules": {
+		"path": "."
+	},
+	"bundlers": {
+		"code": {
+			"specifier": "@beyond-js/code-bundler",
+			"processors": {
+				"ts": "@beyond-js/ts-bundler/processors/ts",
+				"scss": "@beyond-js/scss-bundler/processor"
+			}
+		}
+	},
+	"devDependencies": {
+		"@beyond-js/code-bundler": "file://../../.."
+	}
+}

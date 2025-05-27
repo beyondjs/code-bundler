@@ -1,0 +1,6 @@
+{
+	"name": "main",
+	"bundler": "code",
+	"ts": "*",
+	"scss": "*"
+}
